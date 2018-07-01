@@ -24,4 +24,18 @@ def polygon(refrence,length,side):
 def circle(tortoise,radius):
     polygon(tortoise,(math.pi*2*radius)/360,360)
 
-circle(refobject,100)
+#circle(refobject,100)
+
+
+
+#Here is the idea of encapsulation:
+#Wrapping a piece of code up in a function ----> Assigning yor block of code for a shortcut.
+
+
+#The Idea Of Generalization
+#When you make a function more flexible,like parameters,arguments and stuff it is getting more general.It is called //Generalization
+
+#The Idea of Refactoring
+#Arrange your code for usability.
+
+
