@@ -15,6 +15,18 @@ def summation(arg):
     return return_thing
 
 cheese = [1,2,[(1,2,3,4),3,55,6],11,22]
+#And now there is the better coded version of summation
+def sumtree(L):
+    tot = 0
+    items = list(L)
+    while items:
+        front = items.pop(0)
+        if not isinstance(front,(list,tuple)):
+            tot += front
+        else:
+            items.extend(front)
+    return tot
 
+print(sumtree(cheese))
 print(summation(cheese))
                 
